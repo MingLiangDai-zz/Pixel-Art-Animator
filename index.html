@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pixel Image Animator</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <canvas id="myCanvas"></canvas>
+      <div class="menu">
+        <input id="textInput" placeholder="Enter your text" />
+        <button id="replay">Replay</button>
+        <button id="displayText">Display Text</button>
+        <button id="displayImage">Display Image</button>
+      </div>
+    </div>
+    <!-- <div id="drop-area">
+      <form class="my-form">
+        <p>Upload only 1 image</p>
+        <input
+          type="file"
+          id="fileElem"
+          multiple
+          accept="image/*"
+          onchange="handleFiles(this.files)"
+        />
+        <label class="button" for="fileElem">Select an image</label>
+      </form>
+    </div> -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
